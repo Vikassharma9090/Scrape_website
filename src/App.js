@@ -91,7 +91,7 @@ const App = () => {
     <div className="App">
       <>
       <h1 >Google Search Engine Show  Top 5 Link </h1>
-      <input type="text" value={query} onChange={handleInputChange} />
+      <input type="text" placeholder="Type here .." value={query} onChange={handleInputChange} />
       <button onClick={handleSubmit}>Search</button>
       <div>
         {results.length > 0 ? (
